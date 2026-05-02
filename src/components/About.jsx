@@ -1,7 +1,10 @@
+import profile from "../assets/profile.png";
+
+
 export default function About() {
     return (
         <section className="flex gap-10 px-16 py-20 justify-between items-center" id="about">
-            <img src="/profile.png" className="w-120 rounded-xl" />
+            <img src={profile} className="w-120 rounded-xl" />
 
             <div className="max-w-1/2 ">
                 <h2 className="text-3xl font-bold mb-4">About Me</h2>

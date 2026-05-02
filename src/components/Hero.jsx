@@ -1,4 +1,5 @@
 import React from "react";
+import profile from "../assets/profile.png";
 import {
     Github,
     Linkedin,
@@ -44,7 +45,7 @@ const Hero = () => {
 
                         {/* Image */}
                         <img
-                            src="/profile.png" // replace with your image
+                            src={profile}
                             alt="profile"
                             className="relative w-72 h-72 object-cover rounded-full border-4 border-[#0f172a]"
                         />
