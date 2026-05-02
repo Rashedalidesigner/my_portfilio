@@ -1,17 +1,19 @@
 {
   "name": "react-tailwind-portfolio",
+  "homepage": "https://Rashedalidesigner.github.io/my_portfilio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
     "framer-motion": "^12.38.0",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.575.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
