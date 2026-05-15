@@ -8,6 +8,7 @@ import {
     ShoppingCart,
     Gauge,
     Cloud,
+    PenTool,
 } from "lucide-react";
 
 const services = [
@@ -37,9 +38,9 @@ const services = [
         desc: "Secure systems using JWT, OAuth, and role-based access control.",
     },
     {
-        icon: <ShoppingCart />,
-        title: "E-Commerce Development",
-        desc: "Full-featured eCommerce platforms with payments, cart, and admin panels.",
+        icon: <PenTool />,
+        title: "UI/UX Design & Prototyping",
+        desc: "Designing intuitive user interfaces and wireframes using modern design principles to improve user engagement and usability.",
     },
     {
         icon: <Gauge />,

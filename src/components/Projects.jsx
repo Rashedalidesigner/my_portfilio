@@ -1,21 +1,23 @@
 import React from "react";
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
 
 const projects = [
     {
-        title: "MERN Todo App (2025)",
+        title: "MERN School management System App (2025)",
         desc: "A fully functional Todo application with authentication, CRUD operations, and a clean responsive UI.",
         tech: ["React", "Node.js", "Express", "MongoDB"],
-        image: "/projects/project1.png",
-        github: "#",
-        live: "#",
+        image: project1,
+        github: "https://github.com/Rashedalidesigner/School_managnment_system.git",
+        live: "https://rashedalidesigner.github.io/School_managnment_system/#/login",
     },
     {
-        title: "E-Commerce Demo (2025)",
-        desc: "A demo e-commerce platform featuring product listing, cart system, and checkout flow.",
+        title: "Food Delivey Website",
+        desc: "A demo Food Delivery website with cart,pamentmethod",
         tech: ["React", "Node.js", "Express", "MongoDB"],
-        image: "/projects/project2.png",
-        github: "#",
-        live: "#",
+        image: project2,
+        github: "https://github.com/Rashedalidesigner/foodDeliverywebsite.git",
+        live: "https://rashedalidesigner.github.io/foodDeliverywebsite/",
     },
 ];
 

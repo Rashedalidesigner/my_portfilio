@@ -1,4 +1,5 @@
 import profile from "../assets/profile.png";
+import resume from "../assets/resume.pdf";
 
 export default function About() {
     return (
@@ -30,7 +31,7 @@ export default function About() {
                     ever-evolving world of web development.
                 </p>
 
-                <button className="mt-6 px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 hover:opacity-90 transition text-sm md:text-base">
+                <button className="mt-6 px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 hover:opacity-90 transition text-sm md:text-base" onClick={() => window.open(resume, "_blank")}>
                     Download Resume
                 </button>
             </div>

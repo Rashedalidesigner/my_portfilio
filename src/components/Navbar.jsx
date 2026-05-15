@@ -10,16 +10,16 @@ export default function Navbar() {
 
                 {/* LOGO */}
                 <h1 className="text-lg md:text-xl font-bold text-blue-400">
-                    MERN Developer
+                    <a href="#hero">Rashed Ali</a>
                 </h1>
 
                 {/* DESKTOP MENU */}
                 <ul className="hidden md:flex gap-6 text-sm">
-                    <li><a href="#hero" className="hover:text-blue-400">Home</a></li>
-                    <li><a href="#about" className="hover:text-blue-400">About</a></li>
-                    <li><a href="#services" className="hover:text-blue-400">Services</a></li>
-                    <li><a href="#projects" className="hover:text-blue-400">Projects</a></li>
-                    <li><a href="#contact" className="hover:text-blue-400">Contact</a></li>
+                    <li><a href="#hero" className="hover:text-blue-400 ">Home</a></li>
+                    <li><a href="#about" className="hover:text-blue-400 ">About</a></li>
+                    <li><a href="#services" className="hover:text-blue-400 ">Services</a></li>
+                    <li><a href="#projects" className="hover:text-blue-400 ">Projects</a></li>
+                    <li><a href="#contact" className="hover:text-blue-400 ">Contact</a></li>
                 </ul>
 
                 {/* RIGHT SIDE */}
